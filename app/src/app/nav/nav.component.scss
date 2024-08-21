@@ -1,0 +1,62 @@
+.upper-nav {
+    & {
+        position: sticky;
+        top: 2%;
+        right: 0px !important;
+        left: 0px !important;
+        width: 90%;
+        border-radius: 20px 20px 0px 0px;
+        padding: 2.3% 20px 3px 20px;
+        margin: auto;
+        z-index: -1 !important;
+        background-color: rgba(128, 128, 128, 0.3);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+    }
+    span {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .navName {
+        img {
+            border-radius: 100%;
+            background-color: #fff;
+            padding: 8px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .upper-nav-icons {
+        img {
+            width: 15px;
+            height: 15px;
+            margin-right: 8px;
+        }
+    }
+}
+
+// < ------------------------- start responsive mobil screen ------------------------ >
+@media only screen and (max-width: 767px) and (min-width: 340px) {
+    .upper-nav {
+        & {
+            position: sticky;
+            top: 2%;
+            right: 0px !important;
+            left: 0px !important;
+            width: 90%;
+            border-radius: 20px 20px 0px 0px;
+            padding: 2.3% 20px;
+            margin: auto;
+            z-index: -1 !important;
+            background-color: rgba(128, 128, 128, 0.3);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+        }
+        .navName {
+            margin-left: 0px !important;
+        }
+    }
+}
+// < ------------------------- End responsive mobil screen ------------------------ >
+
+
+
+

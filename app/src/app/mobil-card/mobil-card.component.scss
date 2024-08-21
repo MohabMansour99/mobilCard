@@ -1,0 +1,36 @@
+.outside-border{
+    height: 100vh;
+    background: url(../../assets/pngwing.com@2x.png) ;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+// < ------------------------- start responsive tablet landscape screen ------------------------ >
+@media only screen and (max-width: 1355px) and (min-width: 800px) {
+    .outside-border{
+        width: 30% !important;
+    }
+}
+// < ------------------------- End responsive tablet landscape screen ------------------------ >
+// < ------------------------- start responsive tablet screen ------------------------ >
+ @media only screen and (max-width: 991px) and (min-width: 768px){
+    .outside-border{
+        width: 45% !important;
+    }
+    .outside-border{
+        height: 75vh;
+        background: url(../../assets/pngwing.com@2x.png) ;
+        background-size: 100% 100%;
+        position: relative;
+        overflow: hidden;
+    }
+}
+// < ------------------------- End responsive tablet screen ------------------------ >
+// < ------------------------- start responsive mobil screen ------------------------ >
+@media only screen and (max-width: 767px) and (min-width: 340px){
+    .outside-border{
+        width: 100% !important;
+    }
+}
+// < ------------------------- End responsive mobil screen ------------------------ >

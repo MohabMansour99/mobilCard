@@ -1,0 +1,161 @@
+section {
+
+    .arrow {
+            width: 80px;
+            height: 40px;
+            overflow: hidden;
+            position: absolute;
+            bottom: 21% !important;
+            left: 25px;
+      
+            z-index: 9 !important;
+        }
+        
+        .arrow .outer {
+            width: 0;
+            height: 0;
+            border-right: 25px solid #fff;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .arrow .inner {
+            width: 0;
+            height: 0;
+            border-right: 25px solid transparent;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            position: absolute;
+            top: 0;
+            left: 15px;
+        
+        }
+    .current-day {
+        width: 20%;
+        margin: auto;
+        font-size: 14px;
+        font-weight: 600;
+        p {
+            background-color: rgba(128, 128, 128, 0.2);
+            border-radius: 15px;
+        }
+    }
+    .mobil-body {
+        position: absolute;
+        border-radius: 15px;
+        height: auto;
+        overflow: auto;
+        right: 25px;
+        left: 40px;
+        width: 75%;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+
+    .commnicate-caption {
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+        }
+    }
+
+    .commincate-thanking {
+        span {
+            font-size: 15px;
+            color: rgba(128, 128, 128, 0.5);
+        }
+    }
+
+    .comincate-time {
+        span {
+            font-size: 14px;
+            color: rgba(128, 128, 128, 0.5);
+            margin-left: 0px;
+
+        }
+    }
+
+    .line {
+        height: 2px;
+        background-color: #efefef;
+        width: 95%;
+        margin: auto;
+    }
+
+    .visit-website {
+        a {
+            color: #59b3ed;
+            font-size: 15px;
+            font-weight: 500;
+
+        }
+
+    }
+}
+
+// < ------------------------- start responsive mobil screen ------------------------ >
+
+@media only screen and (max-width: 767px) and (min-width: 340px) {
+
+    .mobil-body {
+
+        position: absolute;
+        border-radius: 15px;
+        height: 60% !important;
+        overflow: auto;
+        right: 25px;
+        width: 65%;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+}
+
+// < ------------------------- End responsive mobil screen ------------------------ >
+
+// < ------------------------- start responsive tablet screen ------------------------ >
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .outside-border {
+        width: 45% !important;
+    }
+}
+
+// < ------------------------- End responsive tablet screen ------------------------ >
+// .arrow {
+//     width: 12px;
+//     height: 20px;
+//     overflow: hidden;
+//     position: absolute;
+//     bottom: 25% !important;
+//     left: 30px;
+// }
+
+// .arrow .outer {
+//     width: 0;
+//     height: 0;
+//     border-right: 20px solid #fff;
+//     border-top: 10px solid transparent;
+//     border-bottom: 10px solid transparent;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+// }
+
+// .arrow .inner {
+//     width: 0;
+//     height: 0;
+//     border-right: 20px solid #fff;
+//     border-top: 10px solid transparent;
+//     border-bottom: 10px solid transparent;
+//     position: absolute;
+//     top: 0;
+//     left: 15px;
+//     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+// }
